@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+#music-player{
+    width: 400px;
+    background-color: #ffc65d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #ffc65d;
+}
+
+
+#controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#volume{
+    width: 100px;
+}
+
+
+#playlist{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+#playlist li a{
+    display: block;
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+}
+
+#playlist li a:hover{
+    background-color:  #eee;
+}
+
+#pause-btn{
+    display: none;
+}
